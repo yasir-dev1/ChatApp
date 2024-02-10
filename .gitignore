@@ -1,0 +1,29 @@
+# Gradle files
+.gradle/
+build/
+
+# IntelliJ IDEA files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Compiled Kotlin files
+*.class
+
+# Log files
+*.log
+
+# Android Studio files
+*.iml
+.gradle
+/local.properties
+
+# Firebase config files (API keys, etc.)
+google-services.json
+
+# Keystores files
+*.jks
+
+# Local configuration file (change this to the correct file name if needed)
+gradle.properties
