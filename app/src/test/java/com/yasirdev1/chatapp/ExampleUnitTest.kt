@@ -1,4 +1,4 @@
-package com.yasirdev1.Y
+package com.yasirdev1.chatapp
 
 import org.junit.Test
 

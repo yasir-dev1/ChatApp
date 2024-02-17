@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace 'com.yasirdev1.Y'
+    namespace 'com.yasirdev1.chatapp'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.yasirdev1.Y"
+        applicationId "com.yasirdev1.chatapp"
         minSdk 24
         targetSdk 33
         versionCode 1
@@ -45,5 +45,9 @@ dependencies {
     implementation(platform("com.google.firebase:firebase-bom:32.7.2"))
     implementation("com.google.firebase:firebase-analytics")
     implementation("com.google.firebase:firebase-auth")
+    implementation 'com.github.dhaval2404:imagepicker:2.1'
+    implementation("com.google.firebase:firebase-database")
+    implementation("com.google.firebase:firebase-storage")
+    implementation("com.google.firebase:firebase-firestore")
 
 }

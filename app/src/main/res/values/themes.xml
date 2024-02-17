@@ -1,9 +1,16 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.Y" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    <style name="Base.Theme.ChatApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#9c27b0</item>
+        <!-- Darker variant for the status bar and contextual app bars -->
+        <item name="colorPrimaryDark">#7b1fa2</item>
+        <!-- Background color of UI elements -->
+        <item name="android:windowBackground">@color/white</item>
+        <!-- Text color for titles and headers -->
+        <item name="android:textColorPrimary">@color/black</item>
+        <!-- Text color for body text -->
+        <item name="android:textColorSecondary">@color/dark_gray</item>
     </style>
 
-    <style name="Theme.Y" parent="Base.Theme.Y" />
+    <style name="Theme.ChatApp" parent="Base.Theme.ChatApp" />
 </resources>
